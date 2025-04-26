@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+section {
+    padding: 30px;
+}
+
+#typewriter {
+    margin-bottom: 36px;
+}
+
+.cta-action {
+    margin-top: 18px;
+    transform: scale(0);
+ }
+
+#cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#cta-para {
+    transform: translate(-120%);
+}
+
+#cta .content {
+    flex-basis: 500px;
+}
+
+#cta small, #ads small, #services > div small{
+    background-color: rgba(32, 100, 230, .5);
+    color: white;
+    font-size: 10px;
+    border-radius: 8px;
+    padding: 3px 4px;
+}
+
+.btn {
+    padding: 8px 12px;
+    background-color: rgba(122, 20, 44, .9);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.img-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 18px;
+    flex-basis: 300px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.progress {
+    height: 10px;
+    background-color: rgb(216, 200, 255);
+    padding: 2px;
+    flex-basis: 200px;
+}
+
+.progress-bar{
+    height: 100%;
+    background-color: white;
+}
+
+.progress-group {
+    display:  flex;
+    align-items: center;
+    gap: 8px;
+    flex-basis: 300px;
+}
+
+.progress-group .img-container{
+    flex-basis: 50px;
+}
+
+.progress-container {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skill {
+    text-align: center;
+    opacity: 0;
+}
+
+#skill h2 {
+    margin-bottom: 18px;
+}
+
+#ads {
+    background-image: url('assets/ads.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 36px;
+    opacity: 0;
+}
+
+#ads ul {
+    line-height: 36px;
+    text-align: left;
+    margin-top: 18px;
+}
+
+#ads ul{
+    text-indent: none;
+    list-style: none;
+}
+
+#ads ul i {
+    margin-right: 6px;
+}
+
+.class1, .class2, .class3 {
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.num{
+    font-size: 48px;
+    border-right: 1px solid gray;
+}
+
+#metrics {
+    display: flex;
+    gap: 8px;
+    justify-content: space-evenly;
+}
+
+#metrics i{
+    margin-right: 4px;
+}
+
+.stats {
+    text-align: center;
+}
+
+#services {
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    margin: 18px 0px;
+    align-items: center;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    transform: translateX(-120%)
+}
+
+.card .img-container{
+    flex-basis: 40px;
+}
+
+#contact {
+    margin: 36px 0px;
+    text-align: center;
+}
+
+#contact i {
+    font-size: 48px;
+}
+.project-card {
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 36px;
+    box-shadow: 2px 2px 6px 1px gray;
+}
+
+.project-card .content{
+    display: flex;
+}
+
+.content .img-container{
+    flex-basis: 100px
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 12px;
+}
+
+input, textarea {
+    padding: 6px 12px;
+    width: 100%;
+}
+
+#action {
+    transform: scale(0);
+}
+
+.sitename {
+    font-size: 18px;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+}
+
+.tags small {
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: rgb(200, 177, 255);
+}
+
+#project .container {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+#project1,#project2,#project3,#project4,#project5 {
+    transform: scale(0);
+    flex-basis: 300px;
+    min-height: 230px;
+} 
+
+.el {
+    background-color: red;
+    height: 200px;
+}
